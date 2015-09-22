@@ -1,0 +1,21 @@
+<html>
+ 
+<head>
+	<title> Amanda Jackson | Fall COM260</title>
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+</head>
+<body>
+<header><ul class="nav nav-tabs">
+        <li><a href="assignments.html ">  Assignments </a></li>
+	<li><a href="#">Just for fun </a></li>
+</header>
+	<div class="container">
+
+	<div class="jumbotron">
+		<h1>Welcome!</h1>
+		<p> My name is Amanda Jackson and I am a Computer Science major at Sunyit</p>
+  		<p><a class="btn btn-primary btn-lg" href="about.html" role="button">About me</a></p>
+	</div>
+ 	</div>
+</body>
+</html>
