@@ -1,13 +1,6 @@
 ﻿<!DOCTYPE html>
 <script>
-    $(window).scroll(function () {
-        
-        if ($(this).scrollTop() > 100) {
-            $('#a').animate({ right: '0px' });
-        } else {
-            $('#a').animate({ right: '-300px' });
-        }
-    });
+ 
 
 </script>
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -78,14 +71,9 @@
       background-color:darkgray;
   }
     #a {
-        position: fixed;
-        bottom: 50%;
-        right: -300px;
-        width: 300px;
-        height: 100px;
-        font-size: 30px;
-        color: white;
-        background: #f18500;
+        position:fixed;
+        left:auto;
+       
     }
   @media only screen and (max-width:2000px){
     .background-container {
@@ -165,12 +153,13 @@
     <section>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-circle" src="https://sp.yimg.com/xj/th?id=OIP.Ma6e6e2446d4fc17e9730c92ea0dd9066H0&pid=15.1&P=0&w=300&h=300 " alt="Generic placeholder image" height="300" width="300" id="j">
+                <h1>Julia Omelko</h1>
+                <p>This is stuff about me and it goes in here</p>
+                
             </div>
 
             <div class="col-md-6">
-                <h1>Julia Omelko</h1>
-                <p>This is stuff about me and it goes in here</p>
+                <img class="img-circle" src="https://sp.yimg.com/xj/th?id=OIP.Ma6e6e2446d4fc17e9730c92ea0dd9066H0&pid=15.1&P=0&w=300&h=300 " alt="Generic placeholder image" height="300" width="300" id="j">
             </div>
 
         </div>
