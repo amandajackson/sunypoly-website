@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
 <script>
-    jQuery(window).scroll(function () {
-        $('#a').hide();
-        if (jQuery(this).scrollTop() > 100) {
-            jQuery('#a').animate({ right: '0px' });
+    $(window).scroll(function () {
+        
+        if ($(this).scrollTop() > 100) {
+            $('#a').animate({ right: '0px' });
         } else {
-            jQuery('#a').animate({ right: '-300px' });
+            $('#a').animate({ right: '-300px' });
         }
     });
 
