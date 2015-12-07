@@ -177,9 +177,9 @@
     <script>
         $(document).ready(function () {
             $('#Am').hover(function () {
-                $('#Am').attr("src", "programmer.jpg");
+                $(this).attr("src", "programmer.jpg");
             },function(){
-            $('#Am').attr("src","Amanda.jpg");
+            $(this).attr("src","Amanda.jpg");
                
                 
             });
@@ -277,7 +277,7 @@
 
                     <div class="col-md-4">
                        
-                        <img class="img-circle" id="Am" src="Amanda.jpg" alt="Generic placeholder image" height="300" width="300">
+                        <img class="img-circle" id="Am" src="Amanda.jpg"  height="300" width="300">
 
 
 
